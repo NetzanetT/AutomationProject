@@ -1,0 +1,106 @@
+{
+  "uid" : "67deeb74841c214a",
+  "name" : "test_DisplayError_When_Search_numbers",
+  "fullName" : "Web.Tests.test_HomePage_search_prudacts.Test_searchPrudacts#test_DisplayError_When_Search_numbers",
+  "historyId" : "dd76e13ea822bbf419fc5b6a2e03b4d1",
+  "time" : {
+    "start" : 1653485075161,
+    "stop" : 1653485077116,
+    "duration" : 1955
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1653485072230,
+      "stop" : 1653485075161,
+      "duration" : 2931
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "acfab9d2be663c86",
+      "name" : "log",
+      "source" : "acfab9d2be663c86.txt",
+      "type" : "text/plain",
+      "size" : 368
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "set_up::0",
+    "time" : {
+      "start" : 1653485077117,
+      "stop" : 1653485079246,
+      "duration" : 2129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('set_up')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web.Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_HomePage_search_prudacts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_searchPrudacts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FGU8170"
+  }, {
+    "name" : "thread",
+    "value" : "17028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Web.Tests.test_HomePage_search_prudacts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('set_up')", "sanity" ]
+  },
+  "source" : "67deeb74841c214a.json",
+  "parameterValues" : [ ]
+}

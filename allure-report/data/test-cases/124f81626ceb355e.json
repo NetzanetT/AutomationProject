@@ -1,0 +1,56 @@
+{
+  "uid" : "124f81626ceb355e",
+  "name" : "test_login_inccorectly_when_fieldsNULL",
+  "fullName" : "Server.API_test.Test_Login#test_login_inccorectly_when_fieldsNULL",
+  "historyId" : "ecffea82a1d9a21a60beb6273b9191d0",
+  "time" : {
+    "start" : 1653483687627,
+    "stop" : 1653483688527,
+    "duration" : 900
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'seccess'",
+  "statusTrace" : "self = <Server.API_test.Test_Login object at 0x0000023E5D2E2800>\n\n    def test_login_inccorectly_when_fieldsNULL(self):\n        url = \"https://trip-yoetz.herokuapp.com/auth/login\"\n        body = {\"email\": \"\", \"password\": \"\"}\n        res = requests.post(url, data=body)\n        assert res.status_code == 400\n        assert res.elapsed.total_seconds()< 3\n        json = res.json()\n        assert json['message'] == \"password or email incorrect\"\n>       assert json ['seccess'] == False\nE       KeyError: 'seccess'\n\nServer\\API_test.py:37: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Server"
+  }, {
+    "name" : "suite",
+    "value" : "API_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FGU8170"
+  }, {
+    "name" : "thread",
+    "value" : "18708-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Server.API_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "124f81626ceb355e.json",
+  "parameterValues" : [ ]
+}

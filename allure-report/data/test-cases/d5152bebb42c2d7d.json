@@ -1,0 +1,136 @@
+{
+  "uid" : "d5152bebb42c2d7d",
+  "name" : "test_ConactIncorrectly_when_InsertOnly_message",
+  "fullName" : "Web.Tests.test_contact.Test_ContactUs#test_ConactIncorrectly_when_InsertOnly_message",
+  "historyId" : "df088fe27881de0287fb6e3940f83cfe",
+  "time" : {
+    "start" : 1653487855958,
+    "stop" : 1653487856169,
+    "duration" : 211
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1653487853153,
+      "stop" : 1653487855958,
+      "duration" : 2805
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "enter_message",
+      "time" : {
+        "start" : 1653487855958,
+        "stop" : 1653487856051,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "'hey how are you'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click_send",
+      "time" : {
+        "start" : 1653487856051,
+        "stop" : 1653487856117,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e4bd6c113b2dd299",
+      "name" : "log",
+      "source" : "e4bd6c113b2dd299.txt",
+      "type" : "text/plain",
+      "size" : 368
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "set_up::0",
+    "time" : {
+      "start" : 1653487856169,
+      "stop" : 1653487858264,
+      "duration" : 2095
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('set_up')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web.Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ContactUs"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FGU8170"
+  }, {
+    "name" : "thread",
+    "value" : "14728-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Web.Tests.test_contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('set_up')" ]
+  },
+  "source" : "d5152bebb42c2d7d.json",
+  "parameterValues" : [ ]
+}

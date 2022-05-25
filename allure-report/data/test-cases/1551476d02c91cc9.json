@@ -1,0 +1,54 @@
+{
+  "uid" : "1551476d02c91cc9",
+  "name" : "test_regiester_incorrectly_when_insert_onlyEmail",
+  "fullName" : "Server.API_test.Test_Login#test_regiester_incorrectly_when_insert_onlyEmail",
+  "historyId" : "6187bcac6c6c751c08e7ef6db9466a1a",
+  "time" : {
+    "start" : 1653483690286,
+    "stop" : 1653483691205,
+    "duration" : 919
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Server"
+  }, {
+    "name" : "suite",
+    "value" : "API_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FGU8170"
+  }, {
+    "name" : "thread",
+    "value" : "18708-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Server.API_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1551476d02c91cc9.json",
+  "parameterValues" : [ ]
+}

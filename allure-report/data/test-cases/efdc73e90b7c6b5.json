@@ -1,0 +1,120 @@
+{
+  "uid" : "efdc73e90b7c6b5",
+  "name" : "test_regiester_incorrectly_when_insert_onlyEmail_Birthdate_name_andPassword",
+  "fullName" : "Server.API_test.Test_Login#test_regiester_incorrectly_when_insert_onlyEmail_Birthdate_name_andPassword",
+  "historyId" : "982d0cdde58bc3e6ed341349c190301a",
+  "time" : {
+    "start" : 1653483901003,
+    "stop" : 1653483901865,
+    "duration" : 862
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Server"
+  }, {
+    "name" : "suite",
+    "value" : "API_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FGU8170"
+  }, {
+    "name" : "thread",
+    "value" : "13668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Server.API_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "989527182653f638",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653483693829,
+        "stop" : 1653483694682,
+        "duration" : 853
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "cbf385ec0714b41d",
+        "reportUrl" : "http://192.168.1.16:8080/job/Regression/1/allure/#testresult/cbf385ec0714b41d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653483901003,
+          "stop" : 1653483901865,
+          "duration" : 862
+        }
+      }, {
+        "uid" : "858415b366ee5e02",
+        "reportUrl" : "http://192.168.1.16:8080/job/Sanity/28/allure/#testresult/858415b366ee5e02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653483901003,
+          "stop" : 1653483901865,
+          "duration" : 862
+        }
+      }, {
+        "uid" : "18e65c69fa4fd1c4",
+        "reportUrl" : "http://192.168.1.16:8080/job/Sanity/23/allure/#testresult/18e65c69fa4fd1c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653483901003,
+          "stop" : 1653483901865,
+          "duration" : 862
+        }
+      }, {
+        "uid" : "ab5afc2cfa895ddd",
+        "reportUrl" : "http://192.168.1.16:8080/job/Sanity/22/allure/#testresult/ab5afc2cfa895ddd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653483901003,
+          "stop" : 1653483901865,
+          "duration" : 862
+        }
+      }, {
+        "uid" : "9c50174252934342",
+        "reportUrl" : "http://192.168.1.16:8080/job/Server%20Side%20Testing/4/allure/#testresult/9c50174252934342",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653483693829,
+          "stop" : 1653483694682,
+          "duration" : 853
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "efdc73e90b7c6b5.json",
+  "parameterValues" : [ ]
+}

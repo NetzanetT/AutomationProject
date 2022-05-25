@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[id=\"wpforms-15-field_0-error\"]\"}\n  (Session info: chrome=101.0.4951.67)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00D3B8F3+2406643]\n\tOrdinal0 [0x00CCAF31+1945393]\n\tOrdinal0 [0x00BBC748+837448]\n\tOrdinal0 [0x00BE92E0+1020640]\n\tOrdinal0 [0x00BE957B+1021307]\n\tOrdinal0 [0x00C16372+1205106]\n\tOrdinal0 [0x00C042C4+1131204]\n\tOrdinal0 [0x00C14682+1197698]\n\tOrdinal0 [0x00C04096+1130646]\n\tOrdinal0 [0x00BDE636+976438]\n\tOrdinal0 [0x00BDF546+980294]\n\tGetHandleVerifier [0x00FA9612+2498066]\n\tGetHandleVerifier [0x00F9C920+2445600]\n\tGetHandleVerifier [0x00DD4F2A+579370]\n\tGetHandleVerifier [0x00DD3D36+574774]\n\tOrdinal0 [0x00CD1C0B+1973259]\n\tOrdinal0 [0x00CD6688+1992328]\n\tOrdinal0 [0x00CD6775+1992565]\n\tOrdinal0 [0x00CDF8D1+2029777]\n\tBaseThreadInitThunk [0x76046739+25]\n\tRtlGetFullPathName_UEx [0x773C8FEF+1215]\n\tRtlGetFullPathName_UEx [0x773C8FBD+1165]",
+      "children" : [ {
+        "name" : "test_ContactIncorrectly_when_NameIsNumbers",
+        "uid" : "c25e92b2eb9539a0",
+        "parentUid" : "ae1729e2d04fdc87fe5c8478878f6256",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653487869201,
+          "stop" : 1653487881018,
+          "duration" : 11817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae1729e2d04fdc87fe5c8478878f6256"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

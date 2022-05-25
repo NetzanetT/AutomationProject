@@ -1,0 +1,168 @@
+{
+  "uid" : "2d1c763a79f7ed45",
+  "name" : "test_ContactIncorrectly_When_FieldsIsNull",
+  "fullName" : "Web.Tests.test_contact.Test_ContactUs#test_ContactIncorrectly_When_FieldsIsNull",
+  "historyId" : "ca059835b365d60569785b1606a41949",
+  "time" : {
+    "start" : 1653489707186,
+    "stop" : 1653489707313,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1653489703886,
+      "stop" : 1653489707186,
+      "duration" : 3300
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "click_send",
+      "time" : {
+        "start" : 1653489707187,
+        "stop" : 1653489707249,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "1d89711f19caa4e3",
+      "name" : "log",
+      "source" : "1d89711f19caa4e3.txt",
+      "type" : "text/plain",
+      "size" : 368
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "set_up::0",
+    "time" : {
+      "start" : 1653489707314,
+      "stop" : 1653489709392,
+      "duration" : 2078
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('set_up')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web.Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ContactUs"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FGU8170"
+  }, {
+    "name" : "thread",
+    "value" : "20168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Web.Tests.test_contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2db54eac9aa41dad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653487698210,
+        "stop" : 1653487698477,
+        "duration" : 267
+      }
+    }, {
+      "uid" : "fe7873fcff69e130",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@id='wpforms-submit-15']\"}\n  (Session info: chrome=101.0.4951.67)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00D3B8F3+2406643]\n\tOrdinal0 [0x00CCAF31+1945393]\n\tOrdinal0 [0x00BBC748+837448]\n\tOrdinal0 [0x00BE92E0+1020640]\n\tOrdinal0 [0x00BE957B+1021307]\n\tOrdinal0 [0x00C16372+1205106]\n\tOrdinal0 [0x00C042C4+1131204]\n\tOrdinal0 [0x00C14682+1197698]\n\tOrdinal0 [0x00C04096+1130646]\n\tOrdinal0 [0x00BDE636+976438]\n\tOrdinal0 [0x00BDF546+980294]\n\tGetHandleVerifier [0x00FA9612+2498066]\n\tGetHandleVerifier [0x00F9C920+2445600]\n\tGetHandleVerifier [0x00DD4F2A+579370]\n\tGetHandleVerifier [0x00DD3D36+574774]\n\tOrdinal0 [0x00CD1C0B+1973259]\n\tOrdinal0 [0x00CD6688+1992328]\n\tOrdinal0 [0x00CD6775+1992565]\n\tOrdinal0 [0x00CDF8D1+2029777]\n\tBaseThreadInitThunk [0x76046739+25]\n\tRtlGetFullPathName_UEx [0x773C8FEF+1215]\n\tRtlGetFullPathName_UEx [0x773C8FBD+1165]",
+      "time" : {
+        "start" : 1653487286919,
+        "stop" : 1653487296931,
+        "duration" : 10012
+      }
+    }, {
+      "uid" : "ecf4eada9e878b4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653485908499,
+        "stop" : 1653485908656,
+        "duration" : 157
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b8278b2f3a6d62a3",
+        "reportUrl" : "http://192.168.1.16:8080/job/Regression/1/allure/#testresult/b8278b2f3a6d62a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653485908499,
+          "stop" : 1653485908656,
+          "duration" : 157
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('set_up')", "regression" ]
+  },
+  "source" : "2d1c763a79f7ed45.json",
+  "parameterValues" : [ ]
+}

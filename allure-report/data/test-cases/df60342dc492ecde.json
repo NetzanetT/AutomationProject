@@ -1,0 +1,194 @@
+{
+  "uid" : "df60342dc492ecde",
+  "name" : "test_ContactuIncorrectly_when_NameIsNull",
+  "fullName" : "Web.Tests.test_contact.Test_ContactUs#test_ContactuIncorrectly_when_NameIsNull",
+  "historyId" : "991e015ba6f9a5ac711b190a7a5a8f50",
+  "time" : {
+    "start" : 1653488050034,
+    "stop" : 1653488050369,
+    "duration" : 335
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1653488047234,
+      "stop" : 1653488050032,
+      "duration" : 2798
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "enter_subject",
+      "time" : {
+        "start" : 1653488050034,
+        "stop" : 1653488050095,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "subject",
+        "value" : "'shalom'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "enter_email",
+      "time" : {
+        "start" : 1653488050095,
+        "stop" : 1653488050193,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "mail",
+        "value" : "'netzanet123@gmail.com'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "enter_message",
+      "time" : {
+        "start" : 1653488050195,
+        "stop" : 1653488050282,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "'hey i love your website'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click_send",
+      "time" : {
+        "start" : 1653488050282,
+        "stop" : 1653488050345,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "edaa7220b64a7c37",
+      "name" : "log",
+      "source" : "edaa7220b64a7c37.txt",
+      "type" : "text/plain",
+      "size" : 368
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "set_up::0",
+    "time" : {
+      "start" : 1653488050369,
+      "stop" : 1653488052461,
+      "duration" : 2092
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "nightly"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('set_up')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web.Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ContactUs"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FGU8170"
+  }, {
+    "name" : "thread",
+    "value" : "20104-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Web.Tests.test_contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8bc844bc11262324",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='wpforms-15-field_5']\"}\n  (Session info: chrome=101.0.4951.67)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00D3B8F3+2406643]\n\tOrdinal0 [0x00CCAF31+1945393]\n\tOrdinal0 [0x00BBC748+837448]\n\tOrdinal0 [0x00BE92E0+1020640]\n\tOrdinal0 [0x00BE957B+1021307]\n\tOrdinal0 [0x00C16372+1205106]\n\tOrdinal0 [0x00C042C4+1131204]\n\tOrdinal0 [0x00C14682+1197698]\n\tOrdinal0 [0x00C04096+1130646]\n\tOrdinal0 [0x00BDE636+976438]\n\tOrdinal0 [0x00BDF546+980294]\n\tGetHandleVerifier [0x00FA9612+2498066]\n\tGetHandleVerifier [0x00F9C920+2445600]\n\tGetHandleVerifier [0x00DD4F2A+579370]\n\tGetHandleVerifier [0x00DD3D36+574774]\n\tOrdinal0 [0x00CD1C0B+1973259]\n\tOrdinal0 [0x00CD6688+1992328]\n\tOrdinal0 [0x00CD6775+1992565]\n\tOrdinal0 [0x00CDF8D1+2029777]\n\tBaseThreadInitThunk [0x76046739+25]\n\tRtlGetFullPathName_UEx [0x773C8FEF+1215]\n\tRtlGetFullPathName_UEx [0x773C8FBD+1165]",
+      "time" : {
+        "start" : 1653487824131,
+        "stop" : 1653487834178,
+        "duration" : 10047
+      }
+    }, {
+      "uid" : "d1ca4f6da5ec79fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653487302211,
+        "stop" : 1653487302585,
+        "duration" : 374
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('set_up')", "nightly" ]
+  },
+  "source" : "df60342dc492ecde.json",
+  "parameterValues" : [ ]
+}

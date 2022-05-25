@@ -1,0 +1,36 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "http://192.168.1.16:8080/job/Regression/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 2015610
+  }
+}, {
+  "buildOrder" : 28,
+  "reportUrl" : "http://192.168.1.16:8080/job/Sanity/28/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 1190838
+  }
+}, {
+  "buildOrder" : 23,
+  "reportUrl" : "http://192.168.1.16:8080/job/Sanity/23/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 11548
+  }
+}, {
+  "buildOrder" : 22,
+  "reportUrl" : "http://192.168.1.16:8080/job/Sanity/22/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 11548
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://192.168.1.16:8080/job/Server%20Side%20Testing/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 11608
+  }
+} ]

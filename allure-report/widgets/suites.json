@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "52077cfe8c9053822ffad1bbd3732661",
+    "name" : "Web.Tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 17
+    }
+  }, {
+    "uid" : "1d6fafe1bb6f81401dca196adac33539",
+    "name" : "Server",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 13
+    }
+  } ]
+}

@@ -1,0 +1,122 @@
+{
+  "uid" : "f49e7dd9cba1a077",
+  "name" : "test_login_inccorectly_when_fieldsNULL",
+  "fullName" : "Server.API_test.Test_Login#test_login_inccorectly_when_fieldsNULL",
+  "historyId" : "ecffea82a1d9a21a60beb6273b9191d0",
+  "time" : {
+    "start" : 1653483894796,
+    "stop" : 1653483895685,
+    "duration" : 889
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Server"
+  }, {
+    "name" : "suite",
+    "value" : "API_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FGU8170"
+  }, {
+    "name" : "thread",
+    "value" : "13668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Server.API_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "124f81626ceb355e",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'seccess'",
+      "time" : {
+        "start" : 1653483687627,
+        "stop" : 1653483688527,
+        "duration" : 900
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "7d82db4207d4dbd0",
+        "reportUrl" : "http://192.168.1.16:8080/job/Regression/1/allure/#testresult/7d82db4207d4dbd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653483894796,
+          "stop" : 1653483895685,
+          "duration" : 889
+        }
+      }, {
+        "uid" : "71b9e5ac0a2650aa",
+        "reportUrl" : "http://192.168.1.16:8080/job/Sanity/28/allure/#testresult/71b9e5ac0a2650aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653483894796,
+          "stop" : 1653483895685,
+          "duration" : 889
+        }
+      }, {
+        "uid" : "9ca30f1ee5d4423c",
+        "reportUrl" : "http://192.168.1.16:8080/job/Sanity/23/allure/#testresult/9ca30f1ee5d4423c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653483894796,
+          "stop" : 1653483895685,
+          "duration" : 889
+        }
+      }, {
+        "uid" : "58a49e662b1c240b",
+        "reportUrl" : "http://192.168.1.16:8080/job/Sanity/22/allure/#testresult/58a49e662b1c240b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653483894796,
+          "stop" : 1653483895685,
+          "duration" : 889
+        }
+      }, {
+        "uid" : "653839fa20a4a08a",
+        "reportUrl" : "http://192.168.1.16:8080/job/Server%20Side%20Testing/4/allure/#testresult/653839fa20a4a08a",
+        "status" : "broken",
+        "statusDetails" : "KeyError: 'seccess'",
+        "time" : {
+          "start" : 1653483687627,
+          "stop" : 1653483688527,
+          "duration" : 900
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f49e7dd9cba1a077.json",
+  "parameterValues" : [ ]
+}
