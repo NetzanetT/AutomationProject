@@ -7,7 +7,6 @@ import allure
 @pytest.mark.usefixtures('set_up')
 class Test_searchPrudacts(Base):
 
-
     def test_DisplayPrudact_AnchlorBracelte(self):
         driver = self.driver
         homepage= HomePage(driver)
@@ -98,6 +97,19 @@ class Test_searchPrudacts(Base):
             print(e)
             allure.attach(driver.get_screenshot_as_png(), name="screenshot", attachment_type=allure.attachment_type.PNG)
 
+    def test_DisplayError_When_Search_signs(self):
+        driver = self.driver
+        homepage = HomePage(driver)
+        homepage.click_on_searchField()
+        homepage.insert_prudact_name("#$%^&")
+        homepage.click_search()
+
+        message = driver.find_element(By.XPATH, homepage.prudact_error).get_attribute("innerText")
+        try:
+            assert "Sorry, but nothing matched your search terms. Please try again with some different keywords." == message
+        except Exception as e:
+            print(e)
+            allure.attach(driver.get_screenshot_as_png(), name="screenshot", attachment_type=allure.attachment_type.PNG)
 
 
 
