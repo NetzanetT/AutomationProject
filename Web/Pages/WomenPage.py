@@ -26,7 +26,10 @@ class WomenDepPage(WomenLocators):
 
     def select_specific_item(self, y):
        x=  self.select_elemnt_from_list()
-       x[y].click()
+
+    def select_specific_items(self, y):
+       x=  self.select_elemnt_from_list()
+
 
 
 
