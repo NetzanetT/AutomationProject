@@ -63,7 +63,7 @@ class Test_ContactUs(Base):
             print("Note is wrong", format(e))
 
 
-    
+
     def test_ContactuIncorrectly_when_NameIsNull(self):
         driver = self.driver
         contact = ContactUsForm(driver)
@@ -274,12 +274,25 @@ class Test_ContactUs(Base):
 
             raise
             print("Note is wrong", format(e))
-    #
-    #
-    #
-    #
-    #
-    #
+
+
+    def test_ContactIncorrectly_when_MeassageIsSi(self):
+        driver = self.driver
+        contact = ContactUsForm(driver)
+        contact.enter_name('netz')
+        contact.enter_subject("shalom")
+        contact.enter_email("nwt@gmail.com")
+        contact.enter_message("#$%^&*")
+        contact.click_send()
+
+        message = driver.find_element(By.ID, "wpforms-15-field_2-error").get_attribute("innerText")
+
+        try:
+            assert message == "Please enter a valid message."
+        except Exception as e:
+
+            raise
+            print("Note is wrong", format(e))
 
 
 
